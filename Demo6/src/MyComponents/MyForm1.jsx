@@ -37,7 +37,6 @@ class MyForm1 extends Component {
 
     render() {
         return (
-
             <>
                 <form action="#" onSubmit={(e) => { e.preventDefault() }}>
                     <label>Enter Name</label><br />
@@ -48,7 +47,7 @@ class MyForm1 extends Component {
                     <label>Select Your City</label>
                     <select onChange={this.countryHandler} value={this.state.country}>
                         <option value="india">India</option>
-                        <option value="USA">USA</option>
+                        <option value="USA">Russia</option>
                         <option value="uk">UK</option>
 
                     </select>

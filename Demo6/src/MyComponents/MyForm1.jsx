@@ -48,7 +48,7 @@ class MyForm1 extends Component {
                     <select onChange={this.countryHandler} value={this.state.country}>
                         <option value="india">India</option>
                         <option value="USA">Russia</option>
-                        <option value="uk">UK</option>
+                        <option value="uk">USA</option>
 
                     </select>
                     <p>Select Gender</p>
